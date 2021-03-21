@@ -24,8 +24,8 @@ If you are stuck, have a look at some of the suggestions below, but have a go yo
 4. Some parts of displaying a move are similar (the actors and roles). Would a method be a better choice?
 5. There are many variables in the code. Can you think of a data structure that could represent a 'movie' and use that?
 6. String interpolation `" hi #{name}"` is preferred to string concatenation.`'hi' + 'tom'`.
-6. Look at the list of `if` statements, this is ok, but with 100 movies, we would need 100 if/else statements. Can you think of a better way?
-7. The logic for invalid input also suffers from the problem in step 6. Given that we know code executes from top to bottom, can you restructure the code not to need such a complex condition?
+7. Look at the list of `if` statements, this is ok, but with 100 movies, we would need 100 if/else statements. Can you think of a better way?
+8. The logic for invalid input also suffers from the problem in step 7. Given that we know code executes from top to bottom, can you restructure the code not to need such a complex condition?
 
 ## Bonus
 
