@@ -1,0 +1,3 @@
+def fibonacci(count)
+  # Start counting...
+end
