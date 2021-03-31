@@ -27,17 +27,17 @@ describe "#fibonacci" do
         @start_time = Time.now
       end
 
-      # it 'returns 2,178,309 for 32nd number' do
-      #   expect(fibonacci(32)).to eql(2_178_309)
-      # end
+      it 'returns 2,178,309 for 32nd number' do
+        expect(fibonacci(32)).to eql(2_178_309)
+      end
 
-      # it 'return 165,580,141 for 42nd number' do
-      #   expect(fibonacci(42)).to eql(267_914_296)
-      # end
+      it 'return 165,580,141 for 42nd number' do
+        expect(fibonacci(42)).to eql(267_914_296)
+      end
 
-      # it 'return 1,100,087,778,366,101,931 for 88th number' do
-      #   expect(fibonacci(88)).to eql(1_100_087_778_366_101_931)
-      # end
+      it 'return 1,100,087,778,366,101,931 for 88th number' do
+        expect(fibonacci(88)).to eql(1_100_087_778_366_101_931)
+      end
 
       it 'should run in less than one thousand milliseconds (1 second)' do
         elapsed_milliseconds = (Time.now - @start_time) * 1000.0
