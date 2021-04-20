@@ -25,7 +25,7 @@ describe 'simon_says' do
                           'Susan says add 10',
                           'Simon says add 3',
                           'Simon says multiply by 8'
-                        ])).to eql(10)
+                        ])).to eql(24)
     end
     it "returns the correct result when given ['Susan says add 10', 'Simon says add 3', 'Simon says multiply by 8'] " do
       expect(simon_says([
