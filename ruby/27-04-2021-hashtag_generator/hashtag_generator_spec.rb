@@ -21,8 +21,8 @@ describe 'hashtag_generator' do
       expect(hashtag_generator('wHat a gREAT day for rUby')).to eql('#WHatAGREATDayForRUBy')
     end
 
-    it 'returns the correct hash tag format for wHat a gREAT day for rUby' do
-      expect(hashtag_generator('a ' * 139)).to eql('A' * 139)
+    it 'returns the correct hash tag format for a string that is larger than 140 characters but becomes shorter than 140 after spaces are removed' do
+      expect(hashtag_generator('a ' * 139)).to eql('#' + ('A' * 139))
     end
   end
 
