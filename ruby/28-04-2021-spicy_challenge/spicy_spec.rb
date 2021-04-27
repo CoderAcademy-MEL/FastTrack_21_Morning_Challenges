@@ -1,4 +1,4 @@
-require_relative '/home/answer'
+require_relative 'spicy'
 
 describe 'it should' do
   it 'check spicy_food is defined' do
