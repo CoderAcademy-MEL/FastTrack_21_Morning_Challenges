@@ -2,7 +2,7 @@ require_relative "change_letters"
 
 describe "letter changer" do
 	it "should have a method" do
-		expect(defined? "letter_changer").to eql "method"
+		expect(defined? letter_changer).to eql 'method'
 	end
 	it "should take a letter and a string" do
 		expect { letter_changer }.to raise_error(ArgumentError)
