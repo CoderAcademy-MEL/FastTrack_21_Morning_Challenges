@@ -6,7 +6,7 @@ Like ruby we will be using a testing library to run our test. The unit testing l
 
 To run the test you will first need to install the relevant packages.
 
-To do this you will need to run `yarn install` inside the the AddMultiply directory.
+To do this you will need to run `yarn install` inside the the javascript directory.
 
 To then run the test the command is:
 

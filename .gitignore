@@ -4,3 +4,5 @@
 
 # Ignore worlds most useless file
 .DS_Store
+
+/javascript/node_modules
