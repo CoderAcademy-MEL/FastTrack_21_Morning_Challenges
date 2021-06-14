@@ -10,7 +10,7 @@ To do this you will need to run `yarn install` inside the the javascript directo
 
 To then run the test the command is:
 
-`jest multiply-add.test.js`
+`yarn test multiply-add.test.js`
 
 
 # Multiply and Add Challenge
