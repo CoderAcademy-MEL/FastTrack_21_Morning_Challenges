@@ -29,4 +29,9 @@ describe('Removes strings that start with t or T', () => {
 		expect(remove(items, removerFunction)).toEqual(["Toad"]);
 		expect(items).toEqual(["cat", "dog"]);
 	});
+	it('Removes Toad and toad from ["cat", "dog", "Toad", "toad"]', () => {
+		let items = ["cat", "dog", "Toad"];
+		expect(remove(items, removerFunction)).toEqual(["Toad","toad"]);
+		expect(items).toEqual(["cat","dog"]);
+	})
 })
